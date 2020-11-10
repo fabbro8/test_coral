@@ -10,6 +10,4 @@ gpio141 = GPIO(141, "in")
 gpio73 = GPIO(73, "out")
 gpio77 = GPIO(77, "out")
 
-# Snapshot of an input at a moment in time
-GPIO.read(gpio6) # True for high state, False for low state
-
+EdgeEdvent(gpio6)
