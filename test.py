@@ -1,4 +1,6 @@
+import periphery
 from periphery import GPIO
+from periphery import EdgeEvent
 
 # Open GPIO's
 gpio6 = GPIO(6, "in")
@@ -10,4 +12,6 @@ gpio141 = GPIO(141, "in")
 gpio73 = GPIO(73, "out")
 gpio77 = GPIO(77, "out")
 
-GPIO.EdgeEvent(gpio6)
+x, y = gpio6.EdgeEvent()
+
+print(x,y)
