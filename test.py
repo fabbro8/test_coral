@@ -10,4 +10,4 @@ gpio141 = GPIO(141, "in")
 gpio73 = GPIO(73, "out")
 gpio77 = GPIO(77, "out")
 
-EdgeEvent(gpio6)
+GPIO.EdgeEvent(gpio6)
